@@ -5,8 +5,10 @@ Utilizies decorates to inject rsa values into configuration beans.
 
 
 
-## Dependencies (maven format)
-```xml
+## Dependencies
+<details>
+  <summary>Maven</summary>
+  ```xml
 <dependencies>
   <dependency>
     <groupId>org.springframework.boot</groupId>
@@ -39,3 +41,4 @@ Utilizies decorates to inject rsa values into configuration beans.
   </dependency>
 </dependencies/>
 ```
+</details>

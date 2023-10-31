@@ -4,6 +4,8 @@ Library to ease the access of asymetric RSA keys in jwt-service projects.
 Utilizies decorates to inject rsa values into configuration beans.
 
 
+## Purpose
+Access RSA asymetric keys easily from resources/cert
 
 ## Dependencies
 <details>

@@ -2,7 +2,7 @@ package token;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import nu.rolandsson.model.TokenRequest;
+import nu.rolandsson.jwt.model.TokenRequest;
 
 @NoArgsConstructor
 @Getter

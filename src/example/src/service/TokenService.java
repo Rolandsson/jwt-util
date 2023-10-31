@@ -6,8 +6,8 @@ import example.src.token.AuthenticateTokenRequest;
 import example.src.token.RefreshTokenRequest;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
-import nu.rolandsson.facade.JwtFacade;
-import nu.rolandsson.validation.TokenValidation;
+import nu.rolandsson.jwt.facade.JwtFacade;
+import nu.rolandsson.jwt.validation.TokenValidation;
 
 @Service
 public class TokenService {

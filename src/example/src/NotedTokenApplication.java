@@ -3,8 +3,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import nu.rolandsson.config.RsaDetails;
-import nu.rolandsson.facade.RsaDetailsFacade;
+import nu.rolandsson.rsa.config.RsaDetails;
+import nu.rolandsson.rsa.facade.RsaDetailsFacade;
 
 @SpringBootApplication
 public class NotedTokenApplication {

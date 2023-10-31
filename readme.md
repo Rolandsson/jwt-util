@@ -5,7 +5,12 @@ Utilizies decorates to inject rsa values into configuration beans.
 
 
 ## Purpose
-Access RSA asymetric keys easily from resources/cert
+Access RSA asymetric keys easily from resources/cert using following application properties
+
+```properties
+rsa.private-key=cert/rsa.private.pem
+rsa.public-key=cert/rsa.public.pem
+```
 
 ## Dependencies
 <details>

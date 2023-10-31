@@ -8,7 +8,8 @@ Utilizies decorates to inject rsa values into configuration beans.
 ## Dependencies
 <details>
   <summary>Maven</summary>
-  ```xml
+  
+```xml
 <dependencies>
   <dependency>
     <groupId>org.springframework.boot</groupId>

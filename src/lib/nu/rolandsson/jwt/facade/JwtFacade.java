@@ -31,7 +31,6 @@ public class JwtFacade {
         .setSubject(subject)
         .setClaims(claims)
         .setIssuedAt(issuedAt)
-        .setIssuer("nu.rolandsson.noted.v1")
         .setExpiration(expiresAt)
         .signWith(SignatureAlgorithm.RS256, key)
         .compact();

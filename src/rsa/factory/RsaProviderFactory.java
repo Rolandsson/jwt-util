@@ -6,9 +6,9 @@ import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
-import java.util.Base64;
 import java.util.Optional;
 
+import org.apache.tomcat.util.codec.binary.Base64;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -26,7 +26,7 @@ public class RsaProviderFactory {
     private Optional<Key> createKey(String sequence, String algorithm, String keyType) {
       try {
         KeyFactory kf = KeyFactory.getInstance(algorithm);
-        byte[] decodedKey = Base64.getDecoder().decode(sequence);
+        byte[] decodedKey = Base64.decodeBase64(sequence);
 
         Key key = switch(keyType) {
           case "private" -> kf.generatePrivate(new PKCS8EncodedKeySpec(decodedKey));
